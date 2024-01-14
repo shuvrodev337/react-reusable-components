@@ -1,17 +1,23 @@
 @layer components {
-  .btn {
-    @apply px-4;
-    @apply py-2;
-    @apply rounded;
-    @apply text-white;
+  .btn-solid {
+    @apply px-4 py-2;
+    @apply font-semibold rounded-md text-white;
+    @apply bg-blue-400 hover:bg-blue-500;
+    /* @apply focus:bg-blue-500;  click korle focus thake */
+    @apply transition-all;
   }
-  .btn-primary {
-    @apply bg-blue-500;
+  .btn-outline {
+    @apply px-4 py-2;
+    @apply font-semibold rounded-md text-blue-400;
+    @apply bg-blue-400 bg-opacity-10 border border-blue-400 hover:bg-opacity-20;
+    /* @apply focus:bg-opacity-20; */
+    @apply transition-all;
   }
-  .btn-success {
-    @apply bg-green-500;
-  }
-  .btn-red {
-    @apply bg-red-500;
+  .btn-ghost {
+    @apply px-4 py-2;
+    @apply font-semibold rounded-md text-blue-400;
+    @apply bg-blue-400 bg-opacity-0 hover:bg-opacity-20;
+    @apply focus:bg-opacity-20;
+    @apply transition-all;
   }
 }

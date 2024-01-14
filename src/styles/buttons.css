@@ -1,0 +1,17 @@
+@layer components {
+  .btn {
+    @apply px-4;
+    @apply py-2;
+    @apply rounded;
+    @apply text-white;
+  }
+  .btn-primary {
+    @apply bg-blue-500;
+  }
+  .btn-success {
+    @apply bg-green-500;
+  }
+  .btn-red {
+    @apply bg-red-500;
+  }
+}

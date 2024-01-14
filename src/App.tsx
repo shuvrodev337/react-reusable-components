@@ -1,7 +1,9 @@
+import MainLayout from "./components/layout/MainLayout";
+
 function App() {
   return (
     <>
-      <h1 className="text-6xl text-center">React Reusable Components</h1>
+      <MainLayout />
     </>
   );
 }

@@ -1,5 +1,5 @@
 const Navbar = () => {
-  return <div>This is Navbar</div>;
+  return <div className="flex h-16 bg-purple-500">This is Navbar</div>;
 };
 
 export default Navbar;
